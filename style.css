@@ -1,0 +1,77 @@
+body {
+  font-family: "Source Sans 3", sans-serif;
+  background-color: #eaeaea;
+}
+
+.container {
+  width: 601px;
+  height: 228px;
+  margin: 200px auto;
+  padding: 35px 31px;
+  box-sizing: border-box;
+  background-color: #243447;
+  border-radius: 10px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.name {
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.name-profile {
+  margin-left: 22px;
+}
+
+.name-profile .handle {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.logo {
+  margin-left: auto;
+}
+
+.lead {
+  width: 539px;
+  height: 52px;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.lead p {
+  font-size: 16px;
+
+  font-weight: 400;
+  color: #fff;
+}
+
+.lead span {
+  color: #1da1f2;
+}
+
+.footer {
+  display: flex;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.heart {
+  display: flex;
+  align-items: center;
+}
+
+.heart .number {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.date p {
+  margin-left: 10px;
+}
